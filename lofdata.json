@@ -1,0 +1,348 @@
+ {
+  "intents": [
+    {
+      "tag": "greeting",
+      "patterns": [
+        "Hai",
+        "Halo",
+        "P",
+        "Ola",
+        "Alo"
+      ],
+      "responses": [
+        "Halo! ada yang bisa saya bantu?",
+        "Selamat datang di chatbot LOF. Apa yang bisa saya bantu?"
+      ]
+    },
+    {
+      "tag": "request_activities",
+      "patterns": [
+        "Apa saja kegiatan yang bisa saya ikuti?",
+        "Ada LOF apa saja yang bisa saya ikuti?",
+        "Saya mau ikut LOF"
+      ],
+      "responses": [
+        "Anda dapat mengikuti berbagai LOF yang mencakup bidang kepemimpinan, riset, teknologi, media, dan pengembangan diri. Ada DPM, BEM, K-RISMA, dll."
+      ]
+    },
+    {
+      "tag": "bem",
+      "patterns": [
+        "Apa itu BEM?",
+        "BEM itu apasih?"
+      ],
+      "responses": [
+        "- **BEM**: Badan Eksekutif Mahasiswa, untuk pengembangan kepemimpinan dan organisasi."
+      ]
+    },
+    {
+      "tag": "dpm",
+      "patterns": [
+        "Apa itu DPM?",
+        "DPM itu apasih?"
+      ],
+      "responses": [
+        "**DPM**: Dewan Perwakilan Mahasiswa, yang berfokus pada legislasi dan pengawasan organisasi mahasiswa."
+      ]
+    },
+    {
+      "tag": "krisma",
+      "patterns": [
+        "Apa itu K-RISMA?",
+        "K-RISMA itu apasih?"
+      ],
+      "responses": [
+        "**K-RISMA**: Kelompok Riset Mahasiswa, untuk penelitian dan pengembangan ilmiah."
+      ]
+    },
+    {
+      "tag": "optiik",
+      "patterns": [
+        "Apa itu OPTIIK?",
+        "OPTIIK itu apasih?"
+      ],
+      "responses": [
+        "**OPTIIK**: Organisasi pengembangan IT dan inovasi kreatif."
+      ]
+    },
+    {
+      "tag": "lpm",
+      "patterns": [
+        "Apa itu LPM DISPLAY?",
+        "LPM DISPLAY itu apasih?"
+      ],
+      "responses": [
+        "**LPM DISPLAY**: Media kampus yang fokus pada jurnalistik dan publikasi."
+      ]
+    },
+    {
+      "tag": "raion",
+      "patterns": [
+        "Apa itu RAION?",
+        "RAION itu apasih?"
+      ],
+      "responses": [
+        "**RAION**: Komunitas teknologi untuk pengembangan game dan aplikasi."
+      ]
+    },
+    {
+      "tag": "bcc",
+      "patterns": [
+        "Apa itu BCC?",
+        "BCC itu apasih?"
+      ],
+      "responses": [
+        "**BCC**: Komunitas coding untuk peningkatan skill pemrograman."
+      ]
+    },
+    {
+      "tag": "hmdtif",
+      "patterns": [
+        "Apa itu HMDTIF?",
+        "HMFTIF itu apasih?"
+      ],
+      "responses": [
+        "**HMDTIF**: Himpunan Mahasiswa Teknik Informatika, fokus pada bidang akademik dan non-akademik informatika."
+      ]
+    },
+    {
+      "tag": "join_bcc",
+      "patterns": [
+        "Bagaimana cara bergabung dengan BCC?",
+        "Apa prosedur mendaftar ke BCC?",
+        "Saya ingin ikut komunitas coding BCC, bagaimana caranya?"
+      ],
+      "responses": [
+        "Untuk bergabung dengan BCC, kunjungi situs resmi mereka atau gabung melalui grup Telegram yang tersedia.",
+        "BCC membuka pendaftaran anggota secara berkala. Ikuti media sosial BCC untuk informasi lebih lanjut.",
+        "Pastikan Anda memenuhi syarat dan ketentuan yang ditetapkan oleh BCC sebelum mendaftar.",
+        "Hubungi admin atau pengurus BCC untuk mendapatkan panduan lebih lanjut mengenai pendaftaran."
+      ]
+    },
+    {
+      "tag": "benefits_bcc",
+      "patterns": [
+        "Apa manfaat bergabung dengan BCC?",
+        "Keuntungan apa yang saya dapat di BCC?",
+        "Apa saja manfaat mengikuti kegiatan BCC?"
+      ],
+      "responses": [
+        "Bergabung dengan BCC memberikan akses ke pelatihan coding intensif dan jaringan profesional di dunia IT.",
+        "Anda dapat meningkatkan keterampilan coding Anda melalui program mentoring dan proyek nyata di BCC.",
+        "BCC menyediakan berbagai seminar dan workshop eksklusif untuk anggotanya.",
+        "Komunitas BCC membantu membangun koneksi dengan sesama anggota yang memiliki minat serupa di bidang teknologi."
+      ]
+    },
+    {
+      "tag": "join_raion",
+      "patterns": [
+        "Bagaimana cara bergabung dengan Raion Studio?",
+        "Apa langkah pertama untuk bergabung di Raion?",
+        "Saya tertarik dengan Raion Studio, bagaimana prosesnya?"
+      ],
+      "responses": [
+        "Untuk mendaftar ke Raion Studio, ikuti informasi pendaftaran di website resmi fakultas atau datang ke open recruitment mereka."
+      ]
+    },
+    {
+      "tag": "benefits_raion",
+      "patterns": [
+        "Apa manfaat bergabung dengan Raion Studio?",
+        "Keuntungan apa yang saya dapat di Raion?",
+        "Apa saja keuntungan mengikuti kegiatan Raion Studio?"
+      ],
+      "responses": [
+        "Raion Studio membantu Anda mengembangkan keterampilan teknologi seperti pengembangan aplikasi, game development, dan berkolaborasi dalam hackathon."
+      ]
+    },
+    {
+      "tag": "join_por",
+      "patterns": [
+        "Bagaimana cara bergabung dengan POROS?",
+        "Apa langkah mendaftar ke POROS?",
+        "Saya tertarik dengan POROS, bagaimana cara ikut serta?"
+      ],
+      "responses": [
+        "Untuk bergabung dengan POROS, Anda bisa datang ke open recruitment mereka atau menghubungi admin melalui media sosial."
+      ]
+    },
+    {
+      "tag": "benefits_por",
+      "patterns": [
+        "Apa keuntungan mengikuti POROS?",
+        "Manfaat apa yang saya dapat jika bergabung di POROS?",
+        "Apa saja manfaat kegiatan POROS?"
+      ],
+      "responses": [
+        "Bergabung di POROS memberikan pengalaman teamwork melalui kegiatan outdoor seperti hiking, outbound, dan pelatihan kepemimpinan."
+      ]
+    },
+    {
+      "tag": "join_bios",
+      "patterns": [
+        "Bagaimana cara bergabung dengan BIOS?",
+        "Apa prosedur pendaftaran ke BIOS?",
+        "Saya ingin ikut serta di BIOS, bagaimana langkahnya?"
+      ],
+      "responses": [
+        "Anda dapat mendaftar ke BIOS melalui form online atau datang langsung ke stand pendaftaran saat open recruitment."
+      ]
+    },
+    {
+      "tag": "benefits_bios",
+      "patterns": [
+        "Apa keuntungan bergabung di BIOS?",
+        "Manfaat apa yang saya dapat di BIOS?",
+        "Apa saja manfaat dari kegiatan BIOS?"
+      ],
+      "responses": [
+        "BIOS menyediakan berbagai kegiatan seni, olahraga, dan pengembangan minat seperti paduan suara, teater, dan kompetisi olahraga."
+      ]
+    },
+    {
+      "tag": "schedule_lof",
+      "patterns": [
+        "Kapan jadwal kegiatan LOF?",
+        "Apa saja jadwal rutin kegiatan LOF?",
+        "Bagaimana cara mengetahui jadwal kegiatan LOF?"
+      ],
+      "responses": [
+        "Jadwal kegiatan LOF dapat dilihat di website resmi fakultas atau akun media sosial masing-masing LOF."
+      ]
+    },
+    {
+      "tag": "general_info_lof",
+      "patterns": [
+        "Apa itu LOF?",
+        "Bisakah jelaskan tentang LOF?",
+        "Apa fungsi LOF di fakultas ini?"
+      ],
+      "responses": [
+        "LOF adalah Lembaga Otonom Fakultas yang menyediakan berbagai kegiatan pengembangan minat, bakat, dan keterampilan mahasiswa."
+      ]
+    },
+    {
+      "tag": "join_bcc_events",
+      "patterns": [
+        "Kegiatan apa saja yang diselenggarakan oleh BCC?",
+        "Apa event rutin yang dilakukan BCC?",
+        "Adakah pelatihan atau workshop di BCC?"
+      ],
+      "responses": [
+        "BCC rutin mengadakan workshop, pelatihan coding, dan kompetisi teknologi untuk mahasiswa."
+      ]
+    },
+    {
+      "tag": "join_raion_hackathon",
+      "patterns": [
+        "Apakah Raion sering ikut hackathon?",
+        "Bagaimana saya bisa ikut hackathon bersama Raion?",
+        "Apakah ada kesempatan berpartisipasi hackathon di Raion Studio?"
+      ],
+      "responses": [
+        "Raion Studio aktif mengikuti hackathon, dan Anda bisa ikut dengan bergabung dalam tim yang mereka bentuk."
+      ]
+    },
+    {
+      "tag": "benefits_por_teamwork",
+      "patterns": [
+        "Apa saja kegiatan teamwork di POROS?",
+        "Bagaimana POROS membangun kerja sama tim?",
+        "Adakah kegiatan kolaborasi di POROS?"
+      ],
+      "responses": [
+        "POROS mengembangkan kerja sama tim melalui kegiatan seperti hiking kelompok, outbound, dan problem-solving bersama."
+      ]
+    },
+    {
+      "tag": "benefits_bios_art",
+      "patterns": [
+        "Adakah kegiatan seni di BIOS?",
+        "Apa saja program seni yang diadakan oleh BIOS?",
+        "Bagaimana BIOS mendukung pengembangan seni?"
+      ],
+      "responses": [
+        "BIOS memiliki program seni seperti paduan suara, teater, seni lukis, dan kompetisi kreatif di fakultas."
+      ]
+    },
+    {
+      "tag": "umum_minat",
+      "patterns": [
+        "Saya ingin tahu LOF yang cocok untuk saya.",
+        "LOF yang cocok apa?",
+        "Ingin join LOF.",
+        "Ingin ikut LOF."
+      ],
+      "responses": [
+        "Apa kesenangan kamu?",
+        "Apa minat kamu?",
+        "Apa yang kamu inginkan?",
+        "Apa yang kamu mau?",
+        "Apa bakat kamu?"
+      ]
+    },
+    {
+      "tag": "recommend_leadership",
+      "patterns": [
+        "Saya suka kepemimpinan.",
+        "Minat saya adalah di bidang leadership.",
+        "Saya ingin kegiatan legislatif seperti politik kampus.",
+        "Saya ingin mengembangkan kemampuan leadership dan kepemimpinan saya."
+      ],
+      "responses": [
+        "Berikut adalah rekomendasi LOF untuk Anda berdasarkan minat dan bakat yang Anda sebutkan:",
+        "LOF **[DPM]**: Fokus pada legislasi dan pengawasan organisasi mahasiswa.",
+        "LOF **[BEM]**: Mengembangkan kemampuan kepemimpinan dan organisasi.",
+        "LOF **[HMDTIF]**: Himpunan Mahasiswa Teknik Informatika yang fokus pada akademik dan non-akademik informatika.",
+        "LOF **[KBMSI]**: Komunitas Mahasiswa Sistem Informasi untuk mendukung kegiatan akademik dan profesional."
+      ]
+    },
+    {
+      "tag": "benefit_leadership1",
+      "patterns": [
+        "Apa keuntungan mengikuti DPM?"
+      ],
+      "responses": [
+        "Manfaat mengikuti LOF DPM meliputi peningkatan kemampuan analisis dalam pengawasan organisasi, pengalaman dalam legislasi mahasiswa, dan pengembangan jaringan dengan tokoh-tokoh kampus."
+      ]
+    },
+    {
+      "tag": "benefit_leadership2",
+      "patterns": [
+        "Apa manfaat ikut BEM?"
+      ],
+      "responses": [
+        "Manfaat mengikuti LOF BEM mencakup pengembangan keterampilan kepemimpinan, pengalaman dalam manajemen organisasi, dan kontribusi langsung pada pengambilan keputusan penting di kampus."
+      ]
+    },
+    {
+      "tag": "recommend_krisma",
+      "patterns": [
+        "Saya suka penelitian dan riset.",
+        "Minat saya adalah menulis.",
+        "Saya ingin kegiatan berbasis riset.",
+        "Saya ingin bergabung dengan tim riset."
+      ],
+      "responses": [
+        "Berikut adalah rekomendasi LOF untuk Anda berdasarkan minat dan bakat yang Anda sebutkan:",
+        "LOF **[K-RISMA]**: Kelompok Riset Mahasiswa untuk pengembangan ilmiah dan penelitian.",
+        "LOF **[LPM DISPLAY]**: Media kampus yang fokus pada jurnalistik, riset dan publikasi."
+      ]
+    },
+    {
+      "tag": "recommend_bcc",
+      "patterns": [
+        "Saya suka coding dan pengembangan aplikasi.",
+        "Minat saya adalah pengembangan website.",
+        "Saya ingin belajar coding lebih dalam.",
+        "Saya ingin tahu lebih banyak tentang coding."
+      ],
+      "responses": [
+        "Berikut adalah rekomendasi LOF untuk Anda berdasarkan minat dan bakat yang Anda sebutkan:",
+        "LOF **[BCC]**: Bootcamp Coding Challenge yang akan mengajarkan Anda pengembangan website dan aplikasi secara menyeluruh.",
+        "LOF **[RAION]**: Program pelatihan di Raion untuk Full Stack Web Development dan Machine Learning.",
+        "LOF **[ROBOTIK]**: Kursus robotik yang menggabungkan coding dan aplikasi dunia nyata, termasuk penggunaan teknologi AI dan machine learning."
+      ]
+    }
+  ]
+}
